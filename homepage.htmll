@@ -1,0 +1,159 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<title> New Tab </title>
+
+<head>
+<link rel="stylesheet" type="text/css" href="CSStemplate.CSS" />
+<link rel="icon" href="https://64.media.tumblr.com/fb740f380e52373f0dea86c18117760a/tumblr_inline_mmrs0cOZqu1qz4rgp.png">
+<style>
+
+/* yellow page background */
+body  {
+    background-color: #0C134F;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+<div class="navbar a">
+<center>
+<a href="#top">Top of page</a>
+<a href="#overview">Overview</a>
+<a href="#my_feed_1">My Feed</a>
+<a href="#handy_links">Handy Links</a>
+</center>
+
+</div>
+</div>
+
+
+<div class="header">
+<center><h1>new tab</h1>
+<h4 id="dateget"></h4>
+<h4 id="timeget"></h4>
+<script>
+var dt = new Date();
+document.getElementById("dateget").innerHTML = (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (("0"+dt.getDate()).slice(-2)) +"/"+ (dt.getFullYear());
+</script>
+</div>
+
+<div class="parallax">
+</div>
+
+<section id="overview">
+<div class="content">
+<p>
+  <!-- for clock, weather, etc-->
+<a class="weatherwidget-io" href="https://forecast7.com/en/41d31n72d93/new-haven/?unit=us" data-label_1="New Haven, CT" data-label_2="Weather" data-font="Helvetica" data-icons="Climacons" data-theme="pure" data-basecolor="rgba(255, 255, 255, 0)" data-highcolor="#6b0909" data-lowcolor="#0c134f" data-suncolor="#f78b33" data-mooncolor="#4a4a4a" data-cloudcolor="#4a4a4a" data-raincolor="#3f7de6" >New Haven, CT Weather</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+</p>
+
+</div>
+</section>
+
+<div class="parallax">
+<p>.</p>
+</div>
+
+<section id="my_feed_1">
+<div class="content">
+<!-- for fun stuff. album of the day, word of the day, article of the day, etc-->
+<h3> My Feed </h3>
+<p>
+<center>
+<!-- word of the day widget -->
+<div id="widgetmain" style="text-align:center;overflow-y:auto;overflow-x:hidden;width:500px;background-color:#transparent; border:1px solid #333333;"><div id="rsswidget" style="align-content:center; height:200px;"><iframe src="http://us1.rssfeedwidget.com/getrss.php?time=1686707198456&amp;x=https%3A%2F%2Fwww.merriam-webster.com%2Fwotd%2Ffeed%2Frss2&amp;w=500&amp;h=200&amp;bc=333333&amp;bw=1&amp;bgc=transparent&amp;m=1&amp;it=true&amp;t=(default)&amp;tc=333333&amp;ts=20&amp;tb=FDE2F3&amp;il=true&amp;lc=2A2F4F&amp;ls=14&amp;lb=true&amp;id=true&amp;dc=333333&amp;ds=14&amp;idt=true&amp;dtc=917FB3&amp;dts=12" border="0" hspace="0" vspace="0" marginwidth="0" marginheight="0" style="align-content:center; border:0; padding:0; margin:0; width:500px; height:200px;" id="rssOutput" frameborder="no">Reading RSS Feed ...</iframe></div><div style="align-content:center;text-align:right;margin-bottom:0;border-top:1px solid #333333;" id="widgetbottom"><span style="font-size:70%"><a href="http://www.rssfeedwidget.com">rss feed widget</a>&nbsp;</span><br></div></div>
+</center>
+<br>
+<center>
+<!-- album of the day widget -->
+<div id="widgetmain" style="text-align:left;overflow-y:auto;overflow-x:hidden;width:250px;background-color:#transparent; border:1px solid #333333;"><div id="rsswidget" style="height:100px;"><iframe src="http://us1.rssfeedwidget.com/getrss.php?time=1686708399879&amp;x=https%3A%2F%2Falbumoftheday.versary.town%2Frss&amp;w=250&amp;h=100&amp;bc=333333&amp;bw=1&amp;bgc=transparent&amp;m=1&amp;it=true&amp;t=(default)&amp;tc=333333&amp;ts=20&amp;tb=FDE2F3&amp;il=true&amp;lc=2A2F4F&amp;ls=14&amp;lb=true&amp;id=false&amp;dc=333333&amp;ds=14&amp;idt=true&amp;dtc=917FB3&amp;dts=12" border="0" hspace="0" vspace="0" marginwidth="0" marginheight="0" style="border:0; padding:0; margin:0; width:250px; height:100px;" id="rssOutput" frameborder="no">Reading RSS Feed ...</iframe></div><div style="text-align:right;margin-bottom:0;border-top:1px solid #333333;" id="widgetbottom"><span style="font-size:70%"><a href="http://www.rssfeedwidget.com">rss feed widget</a>&nbsp;</span><br></div></div>
+</center>
+</div>
+</div>
+</p>
+</section>
+
+<div class="parallax">
+<p>.</p>
+</div>
+
+<section id="my_feed_2">
+    <!-- for news???-->
+<div class="content">
+<h3> Handy Links </h3>
+
+<p>
+<a href="https://www.brennanlucey.com/parents">Pay Dance Tuition</a><br>
+<a href="https://app.plex.tv/desktop/?_gl=1*mgkdp4*_ga*MTc5MDMxODExLjE2NzEyNDA2MTI.*_ga_G6FQWNSENB*MTY3MTMwNTUxMS40LjEuMTY3MTMwNjAxMS4wLjAuMA..#!/server/2f04299ccda331b06db06883b0c79cff3e5810d7/playHistory">Plex Streaming History</a><br>
+<a href="https://onelook.com/">OneLook Reverse Dictionary</a><br>
+
+
+
+
+</p>
+
+</div>
+</section>
+
+<div class="parallax">
+<p>.</p>
+</div>
+
+
+<section id="footer">
+<div class="content">
+<p><center>
+<img src="e.gif">
+<img src="e.gif">
+<img src="e.gif">
+</center></p>
+</div>
+</section>
+
+
+<!--
+Floating image script- By Virtual_Max (http://www.geocities.com/siliconvalley/lakes/8620)
+Modified by Dynamic Drive for various improvements
+Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+
+
+<script type="text/javascript" src="http://samisite.com/extras/HTMLobj-1640/moveobj.js"> </script>
+<script type="text/javascript">
+var flyimage1
+ 
+function pagestart(){
+
+ flyimage1=new Chip("flyimage1",40,62);
+ 
+movechip("flyimage1");
+ 
+}
+ 
+if (window.addEventListener)
+window.addEventListener("load", pagestart, false)
+else if (window.attachEvent)
+window.attachEvent("onload", pagestart)
+else if (document.getElementById)
+window.onload=pagestart
+ 
+</script>
+ 
+ 
+<div id="flyimage1" style="position:absolute; left: -500px; width:40; height:62; font-size:10px;">
+<img src="p.gif">
+</div>
+--> 
+
+
+ 
+</div>
+
+<div class="parallax">
+<p>.</p>
+</div>
+
+</html>
