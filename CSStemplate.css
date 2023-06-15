@@ -1,0 +1,164 @@
+body {
+    font-family: 'Helvetica'; /*Pick a font*/
+    margin: 0px;
+}
+
+/*These are Navbar properties  allow it to stay fixed at the top of the window, and style the links*/
+.navbar {
+    height: 40px;
+    position: fixed;
+    background-color: #5C469C; /*Pick an RGB color!*/
+    width: 80%;
+    left: 10%;
+    top: 0px;
+}
+
+    .navbar a {
+        line-height: 40px;
+        color: #ddc3f7;
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: none;
+    }
+
+        .navbar a:hover {
+            color: black;
+        }
+
+/*Header properties*/
+.header {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+}
+
+#header_image {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    float: left;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 100px;
+    padding-left: 0px;
+    margin: 0px;
+    text-align: center;
+    margin-top: 50px;
+    color: #5C469C;
+}
+
+h4 {
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 40px;
+    padding-left: 0px;
+    margin: 0px;
+    text-align: center;
+    margin-top: 5px;
+    color: #5C469C;
+}
+
+h3 {
+    color: #917FB3;
+    }
+
+p {
+    text-align: center;
+    font-size: medium;
+    line-height: 150%;
+}
+
+/*Standard content section properties*/
+
+
+.content {
+    clear: both;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: 0px;
+    right: 0px;
+    font-size: medium;
+    background-color: #D4ADFC;
+    text-align: center;
+    align-content: center
+}
+
+h2 {
+    font-weight: 300;
+    font-size: x-large;
+}
+
+.body  {
+    /*background-image: url("swag.gif");*/
+    background-color: #FFE79B;
+}
+
+/*Load url for Divider Image*/
+.parallax {
+    background-image: url("planets2.png"); 
+    /* credit: http://jasminnie.weebly.com/pixels1.html */
+    /*background-size: 134px 19px;*/
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/*Forms transparent boxes on which content can float in a parallax section*/
+.floating {
+    background-color: rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 7px 7px 10px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 7px 7px 10px 0px rgba(50, 50, 50, 0.5);
+    box-shadow: 7px 7px 10px 0px rgba(50, 50, 50, 0.5);
+    padding: 5px;
+}
+
+ul.floating {
+    padding-left: 45px;
+}
+
+/*Footer properties*/
+.footer {
+    clear: both;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: 0px;
+    right: 0px;
+    font-size: medium;
+    background-color: #CC99FF;
+    color: white;
+}
+
+/*These align content to the left and right of a screen for 2 columns*/
+.left-content {
+    float: left;
+    display: inline;
+    width: 50%;
+}
+
+.right-content {
+    float: right;
+    display: inline;
+    width: 20%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-right: 80px;
+    font-size: small;
+    text-align: right;
+}
+
+
+.important {
+    font-size: large;
+}
